@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: #eee;
+}
+h1{
+    font-weight: bolder;
+}
+.btn{
+    background-color: #132031;
+    color: white;
+    transition: 0.2 eas;
+    transition-delay:0.5s;
+    border: none;
+}
+.btn :hover{
+    background-color: white;
+}
+#login_btn{
+    background-color: #0b7dda;
+}
+.navbar-brand{
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: black;
+}
+.nav-link{
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+    margin-right: 6px;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 10px;
+}
+.nav-link:hover{
+    color: black;
+    opacity: .7;
+    border: none;
+}
+#logo{
+    font-family: 'MonteCarlo', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav_main{
+    background: url(./images/erik-mclean-Tad0GganQd0-unsplash.jpg) no-repeat ;    
+    background-position: 50% 50%;
+    background-size: cover;
+}
+#regist_btn_login{
+    padding: 8px 15px ;
+    background-color: #0b7dda;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+#regist_btn_sign{
+    padding: 8px 15px ;
+    background-color: rgb(9, 148, 62);
+    color: #fff;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+form.example input[type=text] {
+    padding: 10px 320px 10px 20px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #0b7dda;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+
+  form.example button:hover {
+    background: #132031;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.about{
+    background-color: #132031;
+    color: white;
+    padding: 40px 0;
+    opacity: 0.9;
+}
+
+.card{
+    cursor: pointer;
+    transition: 0.5s;
+    transition-delay:0.5s ;
+}
+
+.card:hover{
+    background-color: #eee;
+    z-index: 20;
+    padding: -20px;
+}
+
+/* testimonial slide  */
+.testimonial-section{
+    background-color: #132031;
+    /* margin: 80px 0; */
+    color: white;
+    min-height: 100vh;
+    opacity: 0.9;
+}
+.testi-img .img-box{
+    max-width: 360px;
+    margin:auto;
+    text-align: center;
+    position: relative;
+}
+.testi-img .circle{
+    height: 360px;
+    width: 360px;
+    background-color: #fb9c9a;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+.testi-img .img-box-inner{
+    position: relative;
+    border-radius: 0 0 180px 180px;
+    overflow:hidden;
+}
+.testi-img .img-box-inner img{
+    max-width: 310px;
+}
+.testimonial-section .carousel-inner{
+    margin-bottom: 20px;
+}
+.testimonial-section .carousel-control-prev{
+    margin-right: 10px;
+}
+.testimonial-section .carousel-control-next, 
+.testimonial-section .carousel-control-prev{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: #fb9c9a;   
+    display: inline-flex;
+    border-radius: 50%;
+}
+.testimonial-section .carousel-control-prev img,
+.testimonial-section .carousel-control-next img{
+    width: 15px;
+}
+.testi-item h3,
+.testi-item p{
+    font-size: 18px;
+}
+.testi-item h3{
+    text-transform: capitalize;
+}
+
+/* Responsive */
+@media(max-width:991px){
+    .testi-img .img-box{
+        max-width: 300px;
+    }
+    .testi-img .circle{
+        height: 300px;
+        width: 300px;
+    }
+    .testi-img .img-box-inner{
+        border-radius: 0 0 150px 150px;
+    }
+    .testi-img .img-box-inner img{
+        max-width: 230px;
+    }
+}
+@media(max-width:767px){
+    .testi-img{
+        margin-bottom: 25px;
+    }
+}
+
+/* partener logo css  */
+
+/* contact section  */
+
+.contact{
+    background-color: #eee;
+    color: #132031;
+}
+#form_contact{
+    border-radius: 12px;
+    background-color: #fff;
+}
+/* footer section  */
+.footer{
+    background-color: #132031;
+    color: white;
+    width: 100%;
+    
+}
